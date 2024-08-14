@@ -10,7 +10,7 @@ Given nums - [2,7,11,15], target = 9.*/
  * @param {number} target
  * @return {number[]}
  */
-const twosum = (nums, target) => {
+const twoSum = (nums, target) => {
     let storage = {};
     for(let [index, num] of nums.entries()) {
        if(storage[num] !== undefined) return [storage[num], index];
